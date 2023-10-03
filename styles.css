@@ -1,0 +1,97 @@
+body, html {
+    background: linear-gradient(90deg, #FF9B70, #C70039);
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 130px;
+    font-size: 120px;
+    text-shadow: 0 5px black;
+}
+h2 {
+    color:white;
+    padding-left: 120px;
+    font-size: 35px;
+}
+h3{
+    color:black;
+}
+
+.container {
+    background-color: #C81639;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.bmi-section {
+    padding: 20px; /* Add padding to increase the size of the BMI section */
+    align-items: center;
+}
+
+.calculator {
+    width: 25%; /* Adjust as needed to control the calculator's width */
+    display: flex;
+    flex-direction: column;
+    margin-left: 195px ;
+    padding:20px;
+    background-color: white; 
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    font-size: 25px;
+}
+
+.weight, .height, .result {
+    text-align: left;
+}
+
+.blur-effect {
+    background: rgba(255, 255, 255, 0.5); /* Apply a semi-transparent white background */
+    padding: 6px;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a blur effect */
+    font-size: 20px;
+}
+
+.input-container {
+    text-align: left;
+}
+
+.display-bmi {
+    text-align: left;
+}
+
+#calculateButton {
+    margin-top: 30px;
+    box-shadow: 3px 3px 2px 2px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#clearButton {
+    width: 15%; /* Adjust the width as needed */
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+#bmiResultBox, #interpretationBox {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+    padding: 10px;
+    background-color: #C81639;
+    border-radius: 10px;
+    color: white;
+    border: black;
+}
